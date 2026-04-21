@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Plus, Pencil, Trash2, ChevronDown, Star, Grid, List } from 'lucide-react';
+import { Search, Plus, Pencil, Trash2, Star, Grid, List } from 'lucide-react';
 import { products as allProducts } from '../data/mockData';
 import { Badge, Modal, Pagination, EmptyState, TableSkeleton } from '../components/ui';
 import toast from 'react-hot-toast';

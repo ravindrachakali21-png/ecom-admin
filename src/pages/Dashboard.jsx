@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
   AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
 } from 'recharts';
 import { DollarSign, ShoppingCart, Users, Package, ArrowRight, Star } from 'lucide-react';
 import { statsData, revenueData, categoryData, recentOrders, topProducts } from '../data/mockData';

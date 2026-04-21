@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, UserPlus, Shield, Ban, CheckCircle, ChevronDown, Filter } from 'lucide-react';
+import { Search, UserPlus, Shield, Ban, CheckCircle, ChevronDown } from 'lucide-react';
 import { users as allUsers } from '../data/mockData';
 import { Badge, Modal, TableSkeleton, Pagination, EmptyState } from '../components/ui';
 import toast from 'react-hot-toast';

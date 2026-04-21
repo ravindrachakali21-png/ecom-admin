@@ -9,12 +9,7 @@ export function StatCard({ label, value, change, icon: Icon, color = 'brand', lo
     purple: 'from-purple-500 to-purple-600 shadow-purple-500/20',
     green: 'from-green-500 to-green-600 shadow-green-500/20',
   };
-  const bgMap = {
-    brand: 'bg-brand-50 dark:bg-brand-900/20',
-    orange: 'bg-orange-50 dark:bg-orange-900/20',
-    purple: 'bg-purple-50 dark:bg-purple-900/20',
-    green: 'bg-green-50 dark:bg-green-900/20',
-  };
+
   const positive = change >= 0;
 
   if (loading) return (
